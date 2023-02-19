@@ -1,6 +1,8 @@
 #include <Python.h>
+#include "fen.h"
 
 static PyMethodDef engineMethods[] = {
+  {"fen_to_dict", _fen_to_dict, METH_VARARGS, "Converts a FEN string to a dictionary."},
   {NULL, NULL, 0, NULL}
 };
 
