@@ -1,5 +1,4 @@
 #include <Python.h>
-#include "test.h"
 
 static PyMethodDef engineMethods[] = {
   {NULL, NULL, 0, NULL}
