@@ -1,0 +1,11 @@
+QMainWindow {
+  background-color: #333;
+}
+
+QFrame[color = 'light-square'] {
+  background-color: #f0d9b5;
+}
+
+QFrame[color = 'dark-square'] {
+  background-color: #b58863;
+}
