@@ -3,6 +3,7 @@
 
 static PyMethodDef engineMethods[] = {
   {"fen_to_dict", _fen_to_dict, METH_VARARGS, "Converts a FEN string to a dictionary."},
+  {"fen_to_board", _fen_to_board, METH_VARARGS, "Converts a FEN string to a board."},
   {NULL, NULL, 0, NULL}
 };
 
