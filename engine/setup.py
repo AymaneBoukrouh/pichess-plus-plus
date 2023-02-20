@@ -3,7 +3,8 @@ import glob
 
 engine_module = Extension(
   'pichess_engine',
-  sources = glob.glob('src/*.cpp')
+  sources = glob.glob('wrappers/*.cpp') + glob.glob('src/*.cpp'),
+  include_dirs = ['include']
 )
 
 setup(
