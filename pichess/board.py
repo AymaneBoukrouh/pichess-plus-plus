@@ -14,3 +14,6 @@ class Board(QWidget):
 
         # set size
         self.resize(800, 800)
+
+    def get_square_by_coordinates(self, coordinates):
+        return self.findChild(Square, coordinates)
